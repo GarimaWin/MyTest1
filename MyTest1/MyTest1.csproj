@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="ArrayClass.cs" />
+    <Compile Remove="ExampleBoolean.cs" />
+    <Compile Remove="ExampleDouble.cs" />
+    <Compile Remove="ExampleOfEnum.cs" />
+    <Compile Remove="ExampleOfLogicalOperator.cs" />
+    <Compile Remove="ExampleOfOperators.cs" />
+    <Compile Remove="ExampleOfRelationalOperator.cs" />
+    <Compile Remove="ExampleOfString.cs" />
+    <Compile Remove="ExampleOfVariable.cs" />
+    <Compile Remove="ForStatement.cs" />
+    <Compile Remove="IfStatement.cs" />
+    <Compile Remove="Program.cs" />
+    <Compile Remove="SwitchStatement.cs" />
+    <Compile Remove="WhileStatment.cs" />
+  </ItemGroup>
+
+</Project>
